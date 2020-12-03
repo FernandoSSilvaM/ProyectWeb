@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'Wierdfont';
+    src: url("fonts/entangle.woff");
+}
+
+body{
+    font-family: 'MedievalSharp', cursive;
+    background-color: #cff9ff;
+    font-size: 22px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table_prices{
+    border: 1px solid black;
+}
+
+td, th{
+    text-align: center;
+    width: 125px;
+    height: 50px;
+}
+
+#cupon{
+    font-family: "Wierdfont";
+    color: white;
+}
+
+.card{
+    background-color: #f6feff;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    width: 800px;    
+    height: auto;
+    border-radius: 5px;
+}
+
+#table_card{
+    width: 300px;
+    background-color: #d0f0f8;
+}
+
+.header{
+    font-size: 40px;
+    height: 50px;
+    width: 120%;
+    background-color: #6093ff;
+
+}
+
+.content{
+    margin: 8px;
+}
